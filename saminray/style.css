@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('./Yekan-Font-master/Yekan.eot');
+    /* IE9 Compat Modes */
+    src: url('./Yekan-Font-master/Yekan.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./Yekan-Font-master/Yekan.woff2') format('woff2'),
+        /* Modern Browsers */
+        url('./Yekan-Font-master/Yekan.woff') format('woff'),
+        /* Modern Browsers */
+        url('./Yekan-Font-master/Yekan.otf') format('opentype'),
+        /* Open Type Font */
+        url('./Yekan-Font-master/Yekan.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        text-rendering: optimizeLegibility;
+        font-display: auto;
+}
+body{
+    font-family: "yekan";
+}
+.aa {
+    color: rgb(255, 255, 255);
+}
+
+.nav-top {
+    background-color: #313131;
+}
+
+.a1 {
+    color: white;
+}
+
+.bbb:hover {
+    transition: 0.3s all;
+    color: #2a6ca6;
+}
+footer{
+    background-color: #333;
+}
+.li{
+    cursor: pointer;
+    color: white;
+    list-style: none;
+}
+footer h4{
+    margin-right: 37px;
+    margin-top: 20px;
+    font-size: larger;
+    color: #2a6ca6;
+
+}
+.footer-body{
+    font-size: smaller;
+}
+footer .aa{
+    font-size: 2rem;
+}
+footer .aa:hover{
+    transition: 0.3s all;
+    color: #40aae6;
+}
+footer .li:hover{
+    transition: 0.3s all;
+    color: #40aae6;
+}
+.copyright a{
+    text-decoration: none;
+    font-size: smaller;
+    color: #999999;
+}
